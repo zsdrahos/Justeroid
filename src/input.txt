@@ -1,0 +1,273 @@
+create asteroid coal AS002
+create asteroid coal AS003
+add settler Telepes1 AS002
+link asteroid AS002 AS003
+move Telepes1 AS003
+
+
+create asteroid coal AS004
+create asteroid coal AS005
+add settler Telepes2 AS004
+move Telepes2 AS005
+
+
+create asteroid coal AS006
+create asteroid coal AS007
+add portal asteroid P001 AS006
+add portal asteroid P002 AS007
+add settler Telepes3 AS006
+link portal P001 P002
+teleport Telepes3 P001
+
+
+create asteroid coal AS008
+create asteroid coal AS009
+add portal asteroid P003 AS008
+add portal asteroid P004 AS009
+add settler Telepes4 AS008
+teleport Telepes4 P003
+
+create asteroid coal AS010 
+add settler Telepes5 AS010
+drill Telepes5
+
+create asteroid coal AS011  
+add settler Telepes6 AS011
+drill Telepes6
+drill Telepes6 
+drill Telepes6
+
+create asteroid uranium AS012
+add settler settler6 AS012
+create sun
+set near AS012
+drill settler6
+drill settler6
+drill settler6 
+mine settler6
+dump settler6 Uranium 
+mine settler6
+dump settler6 Uranium 
+
+create asteroid icewater AS013
+add settler settler7 AS013
+drill settler7
+drill settler7
+drill settler7
+mine settler7
+dump settler7 IceWater
+
+create asteroid icewater AS014
+create sun
+set near AS014
+add settler settler8 AS014
+drill settler8
+drill settler8
+drill settler8
+
+create asteroid empty AS015
+add settler Telepes9 AS015
+add iron settler Telepes9 
+dump Telepes9 Iron
+
+create asteroid coal AS016
+add settler Telepes10 AS016
+drill Telepes10
+add iron settler Telepes10 
+dump Telepes10 Iron
+
+create asteroid coal AS017
+add settler Telepes11 AS017
+add iron settler Telepes11 
+dump Telepes11 Iron
+
+create asteroid coal AS018
+add settler settler12 AS018
+drill settler12
+drill settler12
+drill settler12
+mine settler12
+
+create asteroid empty AS019
+add settler settler13 AS019
+drill settler13
+drill settler13
+drill settler13
+mine settler13
+
+create asteroid coal AS020
+add settler Telepes14 AS020
+mine Telepes14
+
+create asteroid coal AS021
+add settler settler15 AS021
+build robot settler15 Robot21 
+
+create asteroid coal AS022
+add settler Telepes16 AS022
+add iron settler Telepes16
+add uranium settler Telepes16
+add coal settler Telepes16
+build robot Telepes16 Robot16
+
+create asteroid coal AS023
+add settler settler17 AS023
+add iron settler settler17
+add iron settler settler17
+add icewater settler settler17
+add uranium settler settler17
+build portal settler17 portal17 portal18
+
+create asteroid coal AS024
+add settler settler18 AS024
+build portal settler18 portal19 portal20
+
+create asteroid coal AS025
+add settler Telepes19 AS025
+add portal asteroid portal19 AS025
+collect portal Telepes19 portal19
+
+create asteroid coal AS026
+add settler Telepes20 AS026
+collect portal Telepes20 portal20
+
+create asteroid coal AS027
+add settler settler21 AS027
+add settler settler22 AS027
+add iron settler settler21
+add iron settler settler21
+add iron settler settler21
+add coal settler settler21
+add coal settler settler21
+add coal settler settler21
+add uranium settler settler22
+add uranium settler settler22
+add uranium settler settler22
+add icewater settler settler22
+add icewater settler settler22
+add icewater settler settler22
+win
+
+create asteroid coal AS028
+add settler settler23 AS028
+kill all
+lose
+
+create asteroid coal AS029
+create asteroid iron AS030
+create asteroid coal AS031
+create sun
+solarstorm AS029
+solarstorm AS030
+solarstorm AS031
+
+create asteroid coal AS032
+create asteroid iron AS033
+add settler Telepes24 AS032
+add settler Telepes25 AS033
+drill Telepes24
+hide Telepes24
+create sun
+solarstorm AS032
+solarstorm AS033
+
+create asteroid coal AS034
+add settler Telepes25 AS034
+create sun
+drill Telepes25
+drill Telepes25
+drill Telepes25
+mine Telepes25
+hide Telepes25 
+solarstorm AS034
+
+create asteroid empty AS035
+create sun
+add robot Robot35 AS035
+drill Robot35
+drill Robot35
+drill Robot35
+hide Robot35 
+solarstorm AS035
+
+create asteroid coal AS036
+create asteroid iron AS037
+add robot robot36 AS036
+add robot robot37 AS037
+drill robot36
+drill robot36
+drill robot36
+hide robot36
+create sun
+solarstorm AS036
+solarstorm AS037
+
+create asteroid coal AS038
+create asteroid coal AS039
+link asteroid AS038 AS039
+add portal asteroid portal1 AS038
+create sun
+solarstorm AS038
+set crazy portal1
+
+create asteroid coal AS040
+add settler settler26 AS040
+add portal settler portalP40 settler26
+place portal settler26
+
+kill all
+create asteroid coal AS041
+add settler settler27 AS041
+add portal settler portal41 settler27
+add portal settler portal41a settler27 
+link portal portal41 portal41a
+place portal settler27
+place portal settler27
+
+create asteroid coal AS042
+add settler settler28 AS042
+place portal settler28 
+
+create asteroid coal AS043
+create asteroid coal AS044
+link asteroid AS043 AS044
+add robot robot43 AS043
+remove asteroid AS043
+
+create asteroid coal AS045
+add robot robot45 AS045
+remove asteroid AS045
+
+create asteroid coal AS046
+add settler Telepes29 AS046
+drill Telepes29
+drill Telepes29
+drill Telepes29
+mine Telepes29
+
+create asteroid coal AS047
+add settler settler30 AS047
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+add coal settler settler30
+drill settler30
+drill settler30
+drill settler30
+mine settler30
+
+create asteroid coal AS048
+add settler settler31 AS048
+add portal settler portal48 settler31
+add portal settler portal48a settler31
+add portal settler portal48b settler31
+add portal settler portal48c settler31
+add portal asteroid portal48d AS048
+collect portal settler31 portal48d
